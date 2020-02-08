@@ -41,7 +41,7 @@ internal static class DynamicClassGenerator
         string csSceneToolbarMenu = sceneToolbarMenuTemplate.Replace("_ITEMS_", items.ToString());
         
         // Generating new SceneToolbarMenu.cs based on template
-        File.WriteAllText(Resources.SCENE_TOOLBAR_MENU_SCRIPT_URI, csSceneToolbarMenu);
+        File.WriteAllText(Resources.SceneToolbarMenuScriptUri, csSceneToolbarMenu);
         
         // Refreshing database so unity can compile the new SceneToolbarMenu.cs file
         AssetDatabase.Refresh();
