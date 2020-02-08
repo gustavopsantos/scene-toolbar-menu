@@ -1,0 +1,11 @@
+{
+  "name": "com.gustavopsantos.scenetoolbarmenu",
+  "version": "1.0.0",
+  "displayName": "Scene Toolbar Menu",
+  "description": "Creates a shortcut on the toolbar for easy access project scenes.",
+  "unity": "2019.3",
+  "author": {
+    "name": "Gustavo Santos",
+    "url": "https://gsantos.dev"
+  } 
+}

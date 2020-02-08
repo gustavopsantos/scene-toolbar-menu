@@ -1,0 +1,1 @@
+[MenuItem("[Scenes]/_SCENE_NAME_")] private static void Open_SCENE_NAME_Scene() { OpenScene(@"_SCENE_URI_"); }
