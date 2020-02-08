@@ -5,7 +5,7 @@ internal static class Resources
     //-------------------------------------------------------------------------------------------------------------------------
     // Constants
     //-------------------------------------------------------------------------------------------------------------------------
-    private const string BUNDLE_URL = "Assets/SceneToolbarMenu/";
+    private const string BUNDLE_URL = "Packages/com.gustavopsantos/scenetoolbarmenu/";
     private const string TEMPLATES_URL = BUNDLE_URL + "Editor/Templates/";
     private const string SCRIPTS_URL = BUNDLE_URL + "Editor/Scripts/";
 

@@ -26,10 +26,12 @@ internal static class DynamicClassGenerator
                 items.Append("\n\t");
             }
 
-            string normalizedSceneName = urns[i].Replace(".unity", string.Empty).TrimAll();
+            string sceneName = urns[i].Replace(".unity", string.Empty);
+            string sceneNormalizedName = sceneName.RemoveSpecialCharacters();
             
             string item = sceneMenuItemTemplate;
-            item = item.Replace("_SCENE_NAME_", normalizedSceneName);
+            item = item.Replace("_SCENE_NAME_", sceneName);
+            item = item.Replace("_SCENE_NORMALIZED_NAME_", sceneNormalizedName);
             item = item.Replace("_SCENE_URI_", uris[i]);
 
             items.Append(item);
